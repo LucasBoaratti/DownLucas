@@ -50,7 +50,7 @@ py .\Downloads.py
 
 #### E pronto! Agora você pode baixar seus vídeos preferidos e assistir o quanto quiser 🥳 mas lembre-se, quanto maior o vídeo, maior o tempo para fazer o download. 😉
 
-# Linguagens utilizadas
+# 💻 Linguagens utilizadas 💻
 
 ## BackEnd
 
