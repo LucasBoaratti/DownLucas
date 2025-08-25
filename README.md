@@ -7,7 +7,7 @@
 1. Clique no botão Code e copia a URL do projeto:
 
 ```bash
-https://github.com/nome_usuario/projeto.git
+https://github.com/LucasBoaratti/DownLucas.git
 ```
 
 2. Abra o Prompt de comando (ou PowerShell ou GitBash) em sua área de trabalho ou em documentos e realize o seguinte comando:
@@ -15,34 +15,40 @@ https://github.com/nome_usuario/projeto.git
 OBS: Certifique que o Git está instalado no seu computador. Caso não esteja, instale aqui: [Git](https://git-scm.com/downloads)
 
 ```bash 
-git clone https://github.com/nome_usuario/projeto.git
+git clone https://github.com/LucasBoaratti/DownLucas.git
 ```
 
-3. Agora, entre no VSCode:
+3. Acesse a pasta do projeto:
+
+```bash
+cd .\DownLucas
+```
+
+4. Agora, entre no VSCode:
 
 ```bash
 code .
 ```
 
-4. Ao entrar, abra o terminal com o atalho CTRL + J ou CTRL + ' e instale o ambiente virtual do python (venv):
+5. Ao entrar, abra o terminal com o atalho CTRL + J ou CTRL + ' e instale o ambiente virtual do python (venv):
 
 ```bash
 py -m venv .venv
 ```
 
-5. Após a instalação, ative o ambiente virtual:
+6. Após a instalação, ative o ambiente virtual:
 
 ```bash
 .\.venv\Scripts\activate
 ```
 
-6. Agora, instale as bibliotecas pendentes com o arquivo requirements:
+7. Agora, instale as bibliotecas pendentes com o arquivo requirements:
 
 ```bash
 pip install -r .\requirements.txt
 ```
 
-7. Agora, rode o programa:
+8. Agora, rode o programa:
 
 ```bash
 py .\Downloads.py
