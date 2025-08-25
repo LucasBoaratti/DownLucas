@@ -30,28 +30,34 @@ cd .\DownLucas
 code .
 ```
 
-5. Ao entrar, abra o terminal com o atalho CTRL + J ou CTRL + ' e instale o ambiente virtual do python (venv):
+5. Verifique se o python está instalado em sua máquina e no VSCode;
+
+6. Se não tiver instalado na máquina, faça o download do python [aqui](https://www.python.org/);
+
+7. Instale o python no VSCode também (se já tiver instalado, ignore esse passo);
+
+8. Ao instalar o python, abra o terminal com o atalho CTRL + J ou CTRL + ' e instale o ambiente virtual do python (venv):
 
 ```bash
 py -m venv .venv
 ```
 
-6. Após a instalação, ative o ambiente virtual:
+9. Após a instalação, ative o ambiente virtual:
 
 ```bash
 .\.venv\Scripts\activate
 ```
 
-7. Agora, instale as bibliotecas pendentes com o arquivo requirements:
+10. Agora, instale as bibliotecas pendentes com o arquivo requirements:
 
 ```bash
 pip install -r .\requirements.txt
 ```
 
-8. Agora, rode o programa:
+11. Agora, rode o arquivo:
 
 ```bash
-py .\Downloads.py
+py .\Download.py
 ```
 
 #### E pronto! Agora você pode baixar seus vídeos preferidos e assistir o quanto quiser 🥳 mas lembre-se, quanto maior o vídeo, maior o tempo para fazer o download. 😉
