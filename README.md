@@ -1,14 +1,57 @@
-# Downloads-de-videos
-Projeto em python que realiza downloads de vídeos do youtube em alta resolução e com a melhor qualidade de áudio.
+# 🎮 DownLucas 🎮
 
-# Como realizar os downloads
+#### Programa em Python que realiza downloads de vídeos do youtube em alta resolução e com a melhor qualidade de áudio para você!
 
-<h4> Para utlizar a aplicação e realizar os downloads, será necessário seguir esses passos: </h4>
+# ⬇ Como usar o projeto ⬇
 
-<p> Passo 1: Instale o ambiente virtual: python -m venv .venv (no .venv, você pode dar um nome diferente para seu ambiente virtual, se quiser); </p>
-<p> Passo 2: Após a instalação, entre na venv: .\.venv\Scripts/activate; </p>
-<p> Passo 3: Dentro da .venv, instale as biliotecas pytubefix e moviepy: pip install pytubefix moviepy; </p>
-<p> Passo 4: Pressiona CTRL + F5 para rodar o programa; </p>
-<p> Passo final: Digite ou cole a url e espere o vídeo ser baixado. </p>
+1. Clique no botão Code e copia a URL do projeto:
 
-<h5> Observação: Dependendo do tamanho, o vídeo pode demorar (ex: se o vídeo tiver uma duração de tempo maior, ele pode demorar mais para ser baixado). </h5>
+```bash
+https://github.com/nome_usuario/projeto.git
+```
+
+2. Abra o Prompt de comando (ou PowerShell ou GitBash) em sua área de trabalho ou em documentos e realize o seguinte comando:
+
+OBS: Certifique que o Git está instalado no seu computador. Caso não esteja, instale aqui: [Git](https://git-scm.com/downloads)
+
+```bash 
+git clone https://github.com/nome_usuario/projeto.git
+```
+
+3. Agora, entre no VSCode:
+
+```bash
+code .
+```
+
+4. Ao entrar, abra o terminal com o atalho CTRL + J ou CTRL + ' e instale o ambiente virtual do python (venv):
+
+```bash
+py -m venv .venv
+```
+
+5. Após a instalação, ative o ambiente virtual:
+
+```bash
+.\.venv\Scripts\activate
+```
+
+6. Agora, instale as bibliotecas pendentes com o arquivo requirements:
+
+```bash
+pip install -r .\requirements.txt
+```
+
+7. Agora, rode o programa:
+
+```bash
+py .\Downloads.py
+```
+
+#### E pronto! Agora você pode baixar seus vídeos preferidos e assistir o quanto quiser 🥳 mas lembre-se, quanto maior o vídeo, maior o tempo para fazer o download. 😉
+
+# Linguagens utilizadas
+
+## BackEnd
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="70px" height="70px" />
